@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Login from "./Login";
 import Register from "./Register";
 import CreateNote from "./CreateNote";
-import Notes from "./Notes";
+import AllNotes from "./AllNotes";
 import Home from "./Home";
 
 const AllRoutes = () => {
@@ -13,7 +13,7 @@ const AllRoutes = () => {
             <Route path="/register" element={<Register />} />
             <Route path="/login" element={<Login />} />
             <Route path="/createnote" element={<CreateNote />} />
-            <Route path="/allnotes" element={<Notes />} />
+            <Route path="/allnotes" element={<AllNotes />} />
 
         </Routes>
     )
