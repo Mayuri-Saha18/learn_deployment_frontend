@@ -8,7 +8,7 @@ const AllNotes =()=>{
     useEffect(() => {
 
 
-        fetch("https://talented-pear-shirt.cyclic.app/notes", {
+        fetch("https://ruby-agreeable-greyhound.cyclic.app/notes", {
             headers: {
                 "Authorization": localStorage.getItem("token")
             }
